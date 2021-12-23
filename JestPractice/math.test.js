@@ -3,34 +3,34 @@ const operations = {
         return num1 + num2
     },
 
-    subtract: () => {
-
+    subtract: (num1, num2) => {
+        return num1 - num2
     },
 
-    multiply: () => {
-
+    multiply: (num1, num2) => {
+        return num1 * num2
     },
 
-    divide: () => {
-
+    divide: (num1, num2) => {
+        return num1/num2
     }
 }
 
 describe("Math Tests", () => {
     
     it("Can add", () => {
-
+        expect(operations.add(10,2)).toBe(12)
     })
 
     it("Can subtract", () => {
-        
+        expect(operations.subtract(10,2)).toBe(8)
     })
 
     it("Can multiply", () => {
-        
+        expect(operations.multiply(10,2)).toBe(20)
     })
 
     it("Can divide", () => {
-        
+        expect(operations.divide(10,2)).toBe(5)
     })
 })
