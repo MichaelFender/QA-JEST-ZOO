@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Unit Testing &amp; Selecting Elements | Devmountain Foundations</title>
+
+      <link
+        href="_static/pygments.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link href="_static/devmountain.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+          <link rel="stylesheet" type="text/css" href="_static/devmountain.css" />
+          <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+          <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+
+      <script src="_static/pdfobject.min.js"></script>
+      
+  </head>
+  <body>
+      <div id="handouts-container">
+        <header id="page-header">
+            <p id="project-title">Devmountain Foundations</p>
+            <p id="page-title">Unit Testing &amp; Selecting Elements</p>
+              <p id="backlink">
+                <a href="/"> &laquo; Back to Homepage </a>
+              </p>
+        </header>
+
+        <nav id="page-toc"><ul>
+<li><a class="reference internal" href="#">Unit Testing &amp; Selecting Elements</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#setup">Setup</a></li>
+<li><a class="reference internal" href="#part-one">Part One</a></li>
+<li><a class="reference internal" href="#part-two">Part Two</a></li>
+<li><a class="reference internal" href="#part-three">Part Three</a><ul>
+<li><a class="reference internal" href="#id1">Setup</a></li>
+<li><a class="reference internal" href="#google">Google</a></li>
+<li><a class="reference internal" href="#amazon">Amazon</a></li>
+<li><a class="reference internal" href="#enter-wanted">Enter Wanted</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+
+        <main id="page-content">
+            <section class="section" id="unit-testing-selecting-elements">
+<h1>Unit Testing &amp; Selecting Elements</h1>
+<section class="section" id="introduction">
+<h2>Introduction</h2>
+<p>In this lab, you’ll be completing 3 different exercises. The first two give you the chance to work with Jest and writing unit tests. The third will have you working with HTML and CSS to find selectors for UI elements.</p>
+</section>
+<section class="section" id="setup">
+<h2>Setup</h2>
+<ol class="arabic simple">
+<li><p>Download the lab materials from Frodo</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code> into the lab directory</p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">npm</span> <span class="pre">i</span></code> to install the necessary packages</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">npm run test</p>
+<div class="admonition-body docutils container">
+<p>Throughout the lab, you will be using <code class="docutils literal notranslate"><span class="pre">npm</span> <span class="pre">run</span> <span class="pre">test</span></code> to run your tests.</p>
+</div>
+</div>
+</section>
+<section class="section" id="part-one">
+<h2>Part One</h2>
+<ol class="arabic simple">
+<li><p>In the <cite>JestPractice</cite> folder, open the <cite>math.test.js</cite> file</p></li>
+<li><p>Complete the methods inside the <code class="docutils literal notranslate"><span class="pre">operations</span></code> object</p></li>
+<li><p>Write unit tests for the operations in the <code class="docutils literal notranslate"><span class="pre">Math</span> <span class="pre">Tests</span></code> block</p></li>
+<li><p>Run your tests to see if they pass</p></li>
+<li><p>Next move to the <cite>palindrome.test.js</cite> file</p></li>
+<li><p>Use assertions to test the <code class="docutils literal notranslate"><span class="pre">pallyCheck</span></code> function</p></li>
+<li><p>Run your tests</p></li>
+</ol>
+</section>
+<section class="section" id="part-two">
+<h2>Part Two</h2>
+<ol class="arabic simple">
+<li><p>Open up the <cite>animal.js</cite> and <cite>zoo.test.ts</cite> files in the <cite>ZooLab</cite> folder</p></li>
+<li><p>Read over the <code class="docutils literal notranslate"><span class="pre">Animal</span></code> class and figure out the <code class="docutils literal notranslate"><span class="pre">constructor</span></code> and <code class="docutils literal notranslate"><span class="pre">feed</span></code> methods</p></li>
+<li><p>In your test file, test each of the foods with the <code class="docutils literal notranslate"><span class="pre">feed</span></code> function to make sure each one works as expected</p></li>
+</ol>
+</section>
+<section class="section" id="part-three">
+<h2>Part Three</h2>
+<section class="section" id="id1">
+<h3>Setup</h3>
+<ol class="arabic simple">
+<li><p>Create a file in this lab’s directory called <cite>selectors.txt</cite>, keep track off all your findings in that file</p></li>
+</ol>
+</section>
+<section class="section" id="google">
+<h3>Google</h3>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://google.com" target="_blank">Google</a></p></li>
+<li><p>Find 2 selectors for the search bar</p></li>
+<li><p>Find what type of HTML elements are the “Google Search” and “I’m Feeling Lucky” buttons</p></li>
+<li><p>Find a selector for the Google logo</p></li>
+</ol>
+</section>
+<section class="section" id="amazon">
+<h3>Amazon</h3>
+<ol class="arabic simple">
+<li><p>Visit <a class="reference external" href="https://amazon.com" target="_blank">Amazon</a></p></li>
+<li><p>Find a selectr for the login button</p></li>
+<li><p>Find a selector for the search bar</p></li>
+</ol>
+</section>
+<section class="section" id="enter-wanted">
+<h3>Enter Wanted</h3>
+<ol class="arabic simple">
+<li><p>Go to the <a class="reference external" href="https://devmountain-qa.github.io/enter-wanted/1.4_Assignment/index.html" target="_blank">Enter Wanted app</a></p></li>
+<li><p>Find a selector for <strong>each</strong> of the input fields on the site</p></li>
+</ol>
+<p><strong>Push your work to GitHub</strong></p>
+</section>
+</section>
+</section>
+
+        </main>
+
+        <footer id="page-footer">
+            <p>&copy; 2021 Devmountain</p>
+        </footer>
+      </div>
+
+      <script src="_static/main.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+  </body>
+</html>
